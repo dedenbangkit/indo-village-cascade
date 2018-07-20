@@ -1,6 +1,6 @@
 # Indonesia Village Cascade Generator
 
-In (Akvo Flow)[http://flowsupport.akvo.org/], the cascade questions are based on a cascade resource. Once you create the cascade resource you can reuse it limitlessly in any number of cascade questions in any survey. Creating one cascade resource allows you to use one resource multiple times without having to duplicate the work. This repository is example to generate Akvo Flow cascade resources automatically. 
+In [Akvo Flow](http://flowsupport.akvo.org/), the cascade questions are based on a cascade resource. Once you create the cascade resource you can reuse it limitlessly in any number of cascade questions in any survey. Creating one cascade resource allows you to use one resource multiple times without having to duplicate the work. This repository is example to generate Akvo Flow cascade resources automatically. 
 
 ### Requirements
 
