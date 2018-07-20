@@ -37,7 +37,7 @@ $ pip install -r requirements.txt
 $ conda install --yes --file requirements.txt
 ```
 
-### Listing The Resources
+### Usage 
 
 - Generate Single Regency Cascade
 
