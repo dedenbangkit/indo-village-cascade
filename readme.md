@@ -39,4 +39,23 @@ $ conda install --yes --file requirements.txt
 
 ### Listing The Resources
 
-See ```runner.sh``` to see how it works.
+- Generate Single Regency Cascade
+
+In this scenario, you will need province name that listed on [/Storage/Provinces](https://github.com/dedenbangkit/indo-village-cascade/blob/master/storage/provinces.csv) and city / regency name [Storage/Regencies](https://github.com/dedenbangkit/indo-village-cascade/blob/master/storage/regencies.csv)
+
+This will generate cascade file at ```./cascade/``` folder
+
+```
+$ python app.py "province name" "city name"
+```
+
+- Generate Multiple Regency Cascade
+
+First, you should generate single regency cascade file. Then combine it with:
+
+```
+$ python app.py "province name" "city name"
+$ python combine.py "file_name"
+```
+
+You can also create shell script to run the tasks. See [runner.sh](https://github.com/dedenbangkit/indo-village-cascade/blob/master/runner.sh) for example.
